@@ -64,3 +64,71 @@ main{
     color: yellow;
 }
 
+/* Where to go section */
+.wheretogo{
+    margin-top: 300px;
+padding: 50px;
+display: flex;
+align-content: center;
+gap: 100px;
+}
+
+.subtext{
+    max-width: 300px;
+}
+
+.slidebar{
+    display: flex;
+}
+
+.cardscontainer{
+    display:flex;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px   ; 
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.cardsubtext{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.sectiontitle{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.sectiondescription{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
