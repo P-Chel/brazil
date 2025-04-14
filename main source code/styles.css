@@ -61,6 +61,7 @@ a:hover{
     padding: 15px 30px;
     border-radius: 10px;
     z-index: 10;
+    width: 55%;
 }
 
 .navbar a {
@@ -189,6 +190,7 @@ footer{
     background-color: #d4d4dc;
     padding: 50px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 
