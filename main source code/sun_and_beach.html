@@ -13,21 +13,18 @@
      
 </head>
 <body>
-
-    <!-- Hero Section with Video Background -->
-    <section class="hero">
-        <div class="backvid">
-          <div class="slider">
-            <img src="../assets/1stpage pics (1).jpeg" class="slide active">
-            <img src="../assets/1stpage pics (1).jpg" class="slide">
-            <img src="../assets/1stpage pics (1).jpg" class="slide">
-            
-           
-          </div>
-        </div>
-       
-      </section>
-      <script src="pagescript.js"></script>
+               <div class="slider">
+                <div class="slides">
+                    <img class="slide" src="../assets/1stpage pics (1).jpeg" alt="Image #1">
+                    <img class="slide" src="../assets/1stpage pics (2).jpg" alt="Image #2">
+                    <img class="slide" src="../assets/1stpage pics (3).jpg" alt="Image #3">
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094</button>
+                <button class="next" onclick="nextSlide()">&#10095</button>
+            </div>
+        
+         
+   
 
         <!-- Navigation Bar -->
         <nav class="navbar">
@@ -38,16 +35,32 @@
             <a href="culture.html">Culture</a>
             <a href="afro_tourism.html">Afro-tourism</a>
         </nav>
-    </section>
+
     
   <!-- Beach Pics -->
     <section class="beach-showcase">
         <div class="beach-item">
-            <img src="../assets/1stpage pics (1).jpeg" alt="Beach destination in Brazil">
-            <div class="beach-text">
+            <div class="mini-slider">
+                <div class="sliderbeach">
+                    <div class="list">
+                        <div class="item"><img src="../assets/1stpage pics (1).jpeg" alt="lala"></div>
+                        <div class="item"><img src="../assets/1stpage pics (2).jpg" alt="lala2"></div>
+                    </div>
+                    <div class="buttons">
+                        <button class="prev">&lt;</button>
+                        <button class="next">&gt;</button>
+                    </div>
+                    <ul class="dots">
+                        <li class="active"></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+           
                 <h3>Beach Place</h3>
                 <p>Experience the stunning coastline with crystal clear waters and golden sands. Perfect for relaxation and water activities.</p>
             </div>
+            
         </div>
         
         <div class="beach-item">
@@ -172,6 +185,7 @@
 
 
 
-
+    <script src="pagescript.js"></script>
+    <script src="mini-slider.js"></script>
 </body>
 </html>
