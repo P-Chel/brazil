@@ -8,24 +8,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="pages.css">
     <link rel="stylesheet" href="styles.css">
-   
+    <link rel="stylesheet" href="pages.css">
+     
 </head>
 <body>
+               <div class="slider">
+                <div class="slides">
+                    <img class="slide" src="../assets/nature-amazonia (1).jpg" alt="Image #1">
+                    <img class="slide" src="../assets/nature-amazonia (2).jpg" alt="Image #2">
+                    <img class="slide" src="../assets/nature-amazonia (3).jpg" alt="Image #3">
+                    <img class="slide" src="../assets/nature-comidas (1).avif" alt="Image #4">
+                    <img class="slide" src="../assets/nature-comidas (2).jpg" alt="Image #5">
+                    <img class="slide" src="../assets/nature-comidas (3).jpg" alt="Image #6"> 
+                    <img class="slide" src="../assets/nature-pantanal (1).jpg" alt="Image #9">
+                    <img class="slide" src="../assets/nature-pantanal (2).jpg" alt="Image #10">
+                    <img class="slide" src="../assets/nature-pantanal (3).jpg" alt="Image #11">
+                    <img class="slide" src="../assets/nature-pantanal (4).jpg" alt="Image #12">
 
-    <!-- Hero Section with Video Background -->
-    <section class="hero">
-        <div class="slider">
-            <div class="slides">
-                <img class="slide" src="../assets/1stpage pics (1).jpeg" alt="Image #1">
-                <img class="slide" src="../assets/1stpage pics (2).jpg" alt="Image #2">
-                <img class="slide" src="../assets/1stpage pics (3).jpg" alt="Image #3">
+
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094</button>
+                <button class="next" onclick="nextSlide()">&#10095</button>
             </div>
-            <button class="prev" onclick="prevSlide()">&#10094</button>
-            <button class="next" onclick="nextSlide()">&#10095</button>
-        </div>
-    
+        
+         
+   
 
         <!-- Navigation Bar -->
         <nav class="navbar">
@@ -37,36 +45,109 @@
             <a href="culture.html">Culture</a>
             <a href="afro_tourism.html">Afro-tourism</a>
         </nav>
-    </section>
+
+     
+            <div class="sectiontitle">
+             <h3>Nature</h3>
+             <p class="sectiondescriptionpages">Feel the heartbeat of Brazil in its wild, breathtaking landscapes. From the dense mysteries of the Amazon to the surreal sand dunes of Lençóis Maranhenses, nature here is not just scenery—it’s a thrilling, living adventure waiting to be explored. Hike, dive, cruise, or simply breathe it in.
+
+             </p>
+            </div>
     
-    <!-- Beach Showcase Section (Added as requested) -->
+  <!-- nature Pics -->
+   <!-- amazonia section -->
     <section class="beach-showcase">
         <div class="beach-item">
-            <img src="../assets/beach1.jpg" alt="Beach destination in Brazil">
-            <div class="beach-text">
-                <h3>Beach Place</h3>
-                <p>Experience the stunning coastline with crystal clear waters and golden sands. Perfect for relaxation and water activities.</p>
+            <div class="mini-slider">
+                <div class="sliderbeach">
+                    <div class="list">
+                        <div class="item"><img src="../assets/nature-amazonia (2).jpg" alt="nature img#2"></div>
+                        <div class="item"><img src="../assets/nature-amazonia (1).jpg" alt="nature img#1"></div>
+
+                        <div class="item"><img src="../assets/nature-amazonia (3).jpg" alt="nature img #3"></div>
+                        <div class="item"><img src="../assets/nature-amazonia (4).jpg" alt="nature img #4"></div>
+
+                    </div>
+                    <div class="buttons">
+                        <button class="prev">&lt;</button>
+                        <button class="next">&gt;</button>
+                    </div>
+                    <ul class="dots">
+                        <li class="active"></li>
+                        <li></li>
+                    </ul>
+                </div>
             </div>
-        </div>
+            <div class="beach-text">
+                <h3>Amazon Rainforest (Amazônia)</h3>
+                <p>The Amazon rainforest is the largest rainforest in the world, covering more than 2.1 million square miles. It is home to a vast array of plant and animal species, including the Amazon river dolphin, the jaguar, and the pink river dolphin.</p>
+            </div>
+
+        </section>
+
+        <!-- colmidas section -->
+        <section class="beach-showcase">
+            <div class="beach-item">
+                <div class="mini-slider">
+                    <div class="sliderbeach">
+                        <div class="list">
+                            <div class="item"><img src="../assets/nature-comidas (1).avif" alt="nature img#1"></div>
+                            <div class="item"><img src="../assets/nature-comidas (2).jpg" alt="nature img#2"></div>
+                            <div class="item"><img src="../assets/nature-comidas (3).jpg" alt="nature img #3"></div>
+                            <div class="item"><img src="../assets/nature-comidas (4).jpg" alt="nature img #4"></div>
+                           
+                        </div>
+                        <div class="buttons">
+                            <button class="prev">&lt;</button>
+                            <button class="next">&gt;</button>
+                        </div>
+                        <ul class="dots">
+                            <li class="active"></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="beach-text">
+                    <h3>Colmidas</h3>
+                    <p>Colmidas are a type of tree found in the Amazon rainforest. They are known for their unique appearance, with long, thin branches and large, flat leaves.</p>
+                </div>
+    
+            </section>
         
-        <div class="beach-item">
-            <img src="../assets/beach2.jpg" alt="Beautiful coastal view in Brazil">
-            <div class="beach-text">
-                <h3>Beach Place</h3>
-                <p>Discover hidden gems along Brazil's extensive shoreline, with breathtaking views and vibrant local culture.</p>
-            </div>
-        </div>
-        
-        <div class="beach-item">
-            <img src="../assets/beach3.jpg" alt="Tropical paradise in Brazil">
-            <div class="beach-text">
-                <h3>Beach Place</h3>
-                <p>Enjoy the perfect combination of natural beauty and adventure in these tropical paradises along Brazil's coast.</p>
-            </div>
-        </div>
-    </section>
+          <!-- Moqueca section -->
+          <section class="beach-showcase">
+            <div class="beach-item">
+                <div class="mini-slider">
+                    <div class="sliderbeach">
+                        <div class="list">
+                            
+                            <div class="item"><img src="../assets/nature-pantanal (1).jpg" alt="nature img #2"></div>
+                            <div class="item"><img src="../assets/nature-pantanal (2).jpg" alt="nature img#1"></div>
+                            <div class="item"><img src="../assets/nature-pantanal (3).jpg" alt="nature img #3"></div>
+                            <div class="item"><img src="../assets/nature-pantanal (4).jpg" alt="nature img #4"></div>
+                           
+                         
+                        </div>
+                        <div class="buttons">
+                            <button class="prev">&lt;</button>
+                            <button class="next">&gt;</button>
+                        </div>
+                        <ul class="dots">
+                            <li class="active"></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="beach-text">
+                    <h3>Pantanal</h3>
+                    <p>The Pantanal is a wetland ecosystem in the southern part of Brazil, known for its rich biodiversity and unique wildlife, including the jaguar, capybara, and caiman.</p>
+                </div>
+    
+            </section>
 
     
+
+
     <!-- GALLERY SECTION -->
     <section class="gallery">
         <div class="container">
@@ -75,21 +156,30 @@
                 <p>Discover special stories from people who have visited Brazil and were enchanted. Use #VisitBrasil on social media and be part of this community. We hope to see you here too!</p>
             </div>
             <div class="gallery">
-                <img src="../assets/1stpage pics (1).jpeg" alt="Blue water">
-                <img src="../assets/1stpage pics (2).jpg" alt="Mountain and birds">
-                <img src="../assets/1stpage pics (3).jpg" alt="Underwater diving">
-                <img src="../assets/1stpage pics (4).jpg" alt="Waterfall">
-                <img src="../assets/1stpage pics (5).jpg" alt="Crocodile in water">
-                <img src="../assets/1stpage pics (6).jpg" alt="Tree and sky">
-                <img src="../assets/1stpage pics (7).jpg" alt="Cave interior">
-                <img src="../assets/1stpage pics (8).jpg" alt="Chapel with tower">
-                <img src="../assets/1stpage pics (9).jpg" alt="Historic building">
-                <img src="../assets/1stpage pics (11).jpg" alt="Coastal landscape">
+                <img class="slide" src="../assets/nature-amazonia (1).jpg" alt="Image #1">
+                <img class="slide" src="../assets/nature-comidas (3).jpg" alt="Image #2">
+                
+                <img class="slide" src="../assets/nature-amazonia (3).jpg" alt="Image #3">
+                <img class="slide" src="../assets/nature-comidas (2).jpg" alt="Image #10">
+                <img class="slide" src="../assets/nature-amazonia (4).jpg" alt="Image #4">
+                <img class="slide" src="../assets/nature-pantanal (1).jpg" alt="Image #5">
+                <img class="slide" src="../assets/nature-pantanal (2).jpg" alt="Image #11">
+                <img class="slide" src="../assets/nature-pantanal (3).jpg" alt="Image #6">
+                <img class="slide" src="../assets/nature-pantanal (4).jpg" alt="Image #9">
+                <img class="slide" src="../assets/nature-comidas (1).avif " alt="Image #12">
+              
+              
+               
             </div>
         </div>
     </section>
 
-   
+    <div class="sectiontitle">
+        <h3>Explore More!</h3>
+        <p class="sectiondescriptionpages">Click on the cards to learn more about each destination.</p>
+       </div>
+
+
     <section class="wheretogo" id="wheretogo">
         <div class="subtext">
             <div class="sectiontitle">
@@ -98,8 +188,10 @@
             <div class="sectiondescription">
                 <p>Brazil is a country with a rich culture and history, and there are many places to visit. Here are some of the most popular places to visit in Brazil</p>
             </div>  
-
-            <button>See all</button>
+     
+            
+            </a>
+            </button>
         </div>
         
         <div class="slidebar">
@@ -171,6 +263,7 @@
 
 
 
-
+    <script src="pagescript.js"></script>
+    <script src="mini-slider.js"></script>
 </body>
 </html>
