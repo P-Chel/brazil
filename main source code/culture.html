@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,22 +8,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="pages.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pages.css">
+     
 </head>
 <body>
+               <div class="slider">
+                <div class="slides">
+                    <img class="slide" src="../assets/culture-saopaulo (1).avif" alt="Image #1">
+                    <img class="slide" src="../assets/culture-saopaulo (2).jpg" alt="Image #2">
+                    <img class="slide" src="../assets/culture-saopaulo (3).jpg" alt="Image #3">
+                    <img class="slide" src="../assets/culture-saopaulo (4).jpg" alt="Image #4">
+                    <img class="slide" src="../assets/culture-saopaulo (5).jpg" alt="Image #5">
+                    <img class="slide" src="../assets/culture-saopaulo (6).jpg" alt="Image #6"> 
+                    <img class="slide" src="../assets/culture-saopaulo (7).jpg" alt="Image #9">
+                    <img class="slide" src="../assets/culture-belem (1).webp" alt="Image #10">
+                    <img class="slide" src="../assets/culture-belem (2).jpg" alt="Image #11">
+                    <img class="slide" src="../assets/culture-belem (3).jpg" alt="Image #12">
+                    <img class="slide" src="../assets/culture-belem (4).jpg" alt="Image #13">
+                    <img class="slide" src="../assets/culture-belem (5).jpg" alt="Image #14">
+                    
+                  
+                 
 
-    <!-- Hero Section with Video Background -->
-    <section class="hero">
-        <div class="backvid">
-          <!-- <iframe 
-                src="https://www.youtube.com/embed/tZ6Tslj1D8c?autoplay=1&loop=1&playlist=tZ6Tslj1D8c" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen>
-            </iframe> -->
-        </div>
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094</button>
+                <button class="next" onclick="nextSlide()">&#10095</button>
+            </div>
+        
+         
+   
 
         <!-- Navigation Bar -->
         <nav class="navbar">
@@ -34,36 +49,117 @@
             <a href="culture.html">Culture</a>
             <a href="afro_tourism.html">Afro-tourism</a>
         </nav>
-    </section>
+
+     
+            <div class="sectiontitle">
+             <h3>Culture and History</h3>
+             <p>Get to know the rich culture and history of Brazil.</p>
+            </div>
     
-    <!-- Beach Showcase Section (Added as requested) -->
+  <!-- Culture Pics -->
+   <!-- São Paulo section -->
     <section class="beach-showcase">
         <div class="beach-item">
-            <img src="../assets/beach1.jpg" alt="Beach destination in Brazil">
-            <div class="beach-text">
-                <h3>Beach Place</h3>
-                <p>Experience the stunning coastline with crystal clear waters and golden sands. Perfect for relaxation and water activities.</p>
+            <div class="mini-slider">
+                <div class="sliderbeach">
+                    <div class="list">
+                        <div class="item"><img src="../assets/culture-saopaulo (1).avif" alt="Afro img#1"></div>
+                        <div class="item"><img src="../assets/culture-saopaulo (2).jpg" alt="Afro img#2"></div>
+                        <div class="item"><img src="../assets/culture-saopaulo (3).jpg" alt="Afro img #3"></div>
+                        <div class="item"><img src="../assets/culture-saopaulo (4).jpg" alt="Afro img #4"></div>
+                        <div class="item"><img src="../assets/culture-saopaulo (5).jpg" alt="Afro img #5"></div>
+                        <div class="item"><img src="../assets/culture-saopaulo (6).jpg" alt="Afro img #6"></div>
+                        <div class="item"><img src="../assets/culture-saopaulo (7).jpg" alt="Afro img #7"></div>
+                        
+                     
+                    </div>
+                    <div class="buttons">
+                        <button class="prev">&lt;</button>
+                        <button class="next">&gt;</button>
+                    </div>
+                    <ul class="dots">
+                        <li class="active"></li>
+                        <li></li>
+                    </ul>
+                </div>
             </div>
-        </div>
+            <div class="beach-text">
+                <h3>Culture in São Paulo</h3>
+                <p>São Paulo, Brazil’s largest and most cosmopolitan city, is home to a vibrant and growing Afro-Brazilian cultural movement. With millions of Afro-descendants living in the city, São Paulo has become a powerful stage for Black art, literature, music, and activism. Neighborhoods like Liberdade and Zona Sul are known for their strong community ties and cultural expressions. Afro-Brazilian influence is felt through samba schools, hip-hop movements, and Afro-house parties, as well as in spaces like the Museu Afro Brasil in Ibirapuera Park, which celebrates African heritage and Black resistance in Brazil. The city also hosts events like Marcha do Orgulho Crespo (Pride in Natural Hair March), uplifting Black identity and beauty.</p>
+            </div>
+
+        </section>
+
+        <!-- Belem section -->
+        <section class="beach-showcase">
+            <div class="beach-item">
+                <div class="mini-slider">
+                    <div class="sliderbeach">
+                        <div class="list">
+                            <div class="item"><img src="../assets/culture-belem (1).webp" alt="Afro img#1"></div>
+                            <div class="item"><img src="../assets/culture-belem (2).jpg" alt="Afro img#2"></div>
+                            <div class="item"><img src="../assets/culture-belem (3).jpg" alt="Afro img #3"></div>
+                            <div class="item"><img src="../assets/culture-belem (4).jpg" alt="Afro img #4"></div>
+                            <div class="item"><img src="../assets/culture-belem (5).jpg" alt="Afro img #5"></div>
+                            <div class="item"><img src="../assets/culture-belem (6).jpg" alt="Afro img #6"></div>
+                            <div class="item"><img src="../assets/culture-belem (7).webp" alt="Afro img #7"></div>
+                            
+                         
+                        </div>
+                        <div class="buttons">
+                            <button class="prev">&lt;</button>
+                            <button class="next">&gt;</button>
+                        </div>
+                        <ul class="dots">
+                            <li class="active"></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="beach-text">
+                    <h3>Culture in Belém</h3>
+                    <p>Belém, in the northern Amazon region, has a different but equally rich Afro-Brazilian legacy. African traditions blended with Indigenous and Portuguese influences, creating unique cultural expressions. The Carimbó dance and music style, often accompanied by drums and flutes, has Afro roots and is a source of pride in the region. Religious traditions such as Tambor de Mina and Terecô—Afro-Indigenous spiritual practices—are part of the sacred cultural life in Belém. The city’s markets, such as Ver-o-Peso, showcase the fusion of African culinary and herbal traditions, while festivals like Círio de Nazaré also reflect layered identities shaped by African presence.</p>
+                </div>
+    
+            </section>
         
-        <div class="beach-item">
-            <img src="../assets/beach2.jpg" alt="Beautiful coastal view in Brazil">
-            <div class="beach-text">
-                <h3>Beach Place</h3>
-                <p>Discover hidden gems along Brazil's extensive shoreline, with breathtaking views and vibrant local culture.</p>
-            </div>
-        </div>
-        
-        <div class="beach-item">
-            <img src="../assets/beach3.jpg" alt="Tropical paradise in Brazil">
-            <div class="beach-text">
-                <h3>Beach Place</h3>
-                <p>Enjoy the perfect combination of natural beauty and adventure in these tropical paradises along Brazil's coast.</p>
-            </div>
-        </div>
-    </section>
+          <!-- Recife section -->
+          <section class="beach-showcase">
+            <div class="beach-item">
+                <div class="mini-slider">
+                    <div class="sliderbeach">
+                        <div class="list">
+                            
+                            <div class="item"><img src="../assets/afro-recife (2).jpg" alt="Afro img#2"></div>
+                            <div class="item"><img src="../assets/afro-recife (3).jpg" alt="Afro img #3"></div>
+                            <div class="item"><img src="../assets/afro-recife (4).jpg" alt="Afro img #4"></div>
+                            <div class="item"><img src="../assets/afro-recife (5).jpg" alt="Afro img #5"></div>
+                            <div class="item"><img src="../assets/afro-recife (6).jpg" alt="Afro img #6"></div>
+                            <div class="item"><img src="../assets/afro-recife (7).jpg" alt="Afro img #7"></div>
+                            <div class="item"><img src="../assets/afro-recife (1).jpg" alt="Afro img#1"></div>
+                            
+                         
+                        </div>
+                        <div class="buttons">
+                            <button class="prev">&lt;</button>
+                            <button class="next">&gt;</button>
+                        </div>
+                        <ul class="dots">
+                            <li class="active"></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="beach-text">
+                    <h3>Culture in Recife</h3>
+                    <p>Recife, Pernambuco’s vibrant capital, is a cultural mosaic shaped by centuries of diverse influences. Its colonial architecture, especially in nearby Olinda, tells the story of Portuguese rule, while its cobblestone streets echo with the rhythms of frevo and maracatu—traditional music and dance that electrify the city, especially during Brazil’s most artistic Carnival. Recife is also a hub of literary, theatrical, and folk traditions, with venues like the Casa da Cultura showcasing crafts and performances from across the state. The city’s deep Afro-Brazilian roots add to its unique flavor, with spiritual practices, cuisine, and celebrations reflecting a blend of Indigenous, African, and European heritage. Whether it's the beat of a drumline or the scent of regional dishes like feijoada and bolo de rolo, Recife is alive with culture at every corner.</p>
+                </div>
+    
+            </section>
 
     
+
+
     <!-- GALLERY SECTION -->
     <section class="gallery">
         <div class="container">
@@ -72,16 +168,17 @@
                 <p>Discover special stories from people who have visited Brazil and were enchanted. Use #VisitBrasil on social media and be part of this community. We hope to see you here too!</p>
             </div>
             <div class="gallery">
-                <img src="../assets/1stpage pics (1).jpeg" alt="Blue water">
-                <img src="../assets/1stpage pics (2).jpg" alt="Mountain and birds">
-                <img src="../assets/1stpage pics (3).jpg" alt="Underwater diving">
-                <img src="../assets/1stpage pics (4).jpg" alt="Waterfall">
-                <img src="../assets/1stpage pics (5).jpg" alt="Crocodile in water">
-                <img src="../assets/1stpage pics (6).jpg" alt="Tree and sky">
-                <img src="../assets/1stpage pics (7).jpg" alt="Cave interior">
-                <img src="../assets/1stpage pics (8).jpg" alt="Chapel with tower">
-                <img src="../assets/1stpage pics (9).jpg" alt="Historic building">
-                <img src="../assets/1stpage pics (11).jpg" alt="Coastal landscape">
+                <img class="slide" src="../assets/culture-saopaulo (1).avif" alt="Image #1">
+                <img class="slide" src="../assets/culture-saopaulo (2).jpg" alt="Image #2">
+                <img class="slide" src="../assets/culture-saopaulo (3).jpg" alt="Image #3">
+                <img class="slide" src="../assets/culture-belem (1).webp" alt="Image #4">
+                <img class="slide" src="../assets/culture-belem (2).jpg" alt="Image #5">
+                <img class="slide" src="../assets/culture-belem (3).jpg" alt="Image #6">
+                <img class="slide" src="../assets/culture-belem (4).jpg" alt="Image #9">
+                <img class="slide" src="../assets/culture-belem (5).jpg" alt="Image #10">
+                <img class="slide" src="../assets/culture-belem (6).jpg" alt="Image #11">
+                <img class="slide" src="../assets/culture-belem (7).webp" alt="Image #12">
+               
             </div>
         </div>
     </section>
@@ -95,8 +192,10 @@
             <div class="sectiondescription">
                 <p>Brazil is a country with a rich culture and history, and there are many places to visit. Here are some of the most popular places to visit in Brazil</p>
             </div>  
-
-            <button>See all</button>
+     
+            
+            </a>
+            </button>
         </div>
         
         <div class="slidebar">
@@ -161,13 +260,14 @@
 
 
     <footer>
-        <p>© 2025 Discover Brazil | Follow me on social media!</p>
+        <p>© 2025 Discover B    razil | Follow me on social media!</p>
         <p>Contact: chelsiefaith07@gmail.com | Phone: 0991 291 7116</p>
         <p><a href="#top" style="color: #1e00ff; text-decoration: underline;">Back to Top</a></p>
     </footer>
 
 
 
-
+    <script src="pagescript.js"></script>
+    <script src="mini-slider.js"></script>
 </body>
 </html>
