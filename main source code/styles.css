@@ -186,6 +186,7 @@ gap: 50px;
     object-fit: cover;
     border-radius: 8px;
     border: 2px solid #353434;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 
@@ -221,5 +222,5 @@ footer p{
 .gallery img:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 15px rgb(39, 45, 53);
-    background-color: #fafafa;
+   
 }
