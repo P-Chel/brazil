@@ -205,12 +205,19 @@ gap: 50px;
 
 footer{
     margin-top: 100px;  
-    background-color: #d4d4dc;
+    background-color: #171717;
     padding: 50px;
     text-align: center;
     margin-bottom: 0px;
 }
 
+footer p{
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 0 100px;   
+}
 .gallery img:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 15px rgb(39, 45, 53);
